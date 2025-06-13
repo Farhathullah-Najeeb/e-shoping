@@ -1,5 +1,3 @@
-// ignore_for_file: avoid_print
-
 import 'package:flutter/material.dart';
 import 'package:machine_test_farhathullah/models/user.dart';
 import 'package:machine_test_farhathullah/services/auth_service.dart';
