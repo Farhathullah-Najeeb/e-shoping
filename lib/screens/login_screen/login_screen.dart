@@ -1,5 +1,4 @@
 // ignore_for_file: deprecated_member_use
-
 import 'package:flutter/material.dart';
 import 'package:machine_test_farhathullah/providers/auth_provider.dart';
 import 'package:machine_test_farhathullah/screens/login_screen/login_screen_provider.dart';

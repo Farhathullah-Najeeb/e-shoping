@@ -28,7 +28,6 @@ class _ReviewCardState extends State<ReviewCard>
   late AnimationController _animationController;
   late Animation<double> _scaleAnimation;
   late Animation<double> _fadeAnimation;
-  bool _isPressed = false;
   bool _showFullComment = false;
 
   @override
@@ -58,21 +57,18 @@ class _ReviewCardState extends State<ReviewCard>
 
   void _handleTapDown(TapDownDetails details) {
     if (widget.onTap != null) {
-      setState(() => _isPressed = true);
       _animationController.reverse();
     }
   }
 
   void _handleTapUp(TapUpDetails details) {
     if (widget.onTap != null) {
-      setState(() => _isPressed = false);
       _animationController.forward();
     }
   }
 
   void _handleTapCancel() {
     if (widget.onTap != null) {
-      setState(() => _isPressed = false);
       _animationController.forward();
     }
   }

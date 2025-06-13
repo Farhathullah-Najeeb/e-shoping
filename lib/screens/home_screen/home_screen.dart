@@ -1,8 +1,6 @@
 // ignore_for_file: deprecated_member_use
-
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
-import 'package:machine_test_farhathullah/models/fetch_all_products.dart';
 import 'package:machine_test_farhathullah/providers/product_provider.dart';
 import 'package:machine_test_farhathullah/screens/home_screen/home_screen_widgets/custom_app_bar.dart';
 import 'package:machine_test_farhathullah/screens/home_screen/home_screen_widgets/featured_header.dart';
