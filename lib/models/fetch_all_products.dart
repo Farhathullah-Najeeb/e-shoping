@@ -165,7 +165,6 @@ class Product {
     };
   }
 
-  // `copyWith` മെത്തേഡ് ഇവിടെ ചേർത്തിരിക്കുന്നു
   Product copyWith({
     int? id,
     String? title,
